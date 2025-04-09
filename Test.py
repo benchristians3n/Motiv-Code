@@ -6,8 +6,8 @@ GPIO.setmode(GPIO.BCM)
 
 # Motor driver pins
 IN1 = 17
-IN2 = 18
-ENA = 22  # For PWM speed control (optional)
+IN2 = 19
+ENA = 21  # For PWM speed control (optional)
 
 # Set GPIO pins as output
 GPIO.setup(IN1, GPIO.OUT)
